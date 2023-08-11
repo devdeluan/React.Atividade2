@@ -1,4 +1,22 @@
 
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+:root {
+    --branco: #FFFFFF;
+    --rosa: #C12D6D;
+    --azul: #0C7EAE;
+    --azulP: #060821;
+    --azulC: #182246;
+
+    --font1: 'Righteous', cursive;
+    --font2: 'Titillium Web', sans-serif;
+}
+
 /* FOOTER */
 footer {
     background-image: 
@@ -103,3 +121,26 @@ footer {
     color: var(--branco);
 }
 
+    /* FOOTER */
+    .span_dicas_texto{
+        width: 90%;
+        text-align: center;
+    }
+
+    .rodape_conteudo{
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .rodape_conteudo_contatos{
+        align-items: center;
+        margin: 50px 0;
+    }
+
+    .rodape_conteudo>img{
+        order: -1;
+    }
+
+    .rodape_conteudo_paginas{
+        order: 1;
+    }
